@@ -8,5 +8,13 @@
 
 import Foundation
 
-print("Hello, World!")
+let magician = Character(name: "magician")
+var stick: Weapon
+
+let warrior = Character(name: "warrior")
+
+let zombie = Character(name: "zombie")
+
+let characters = [magician, warrior, zombie]
+
 
